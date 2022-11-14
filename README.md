@@ -1,0 +1,24 @@
+# Retrieve Printed Files on Mac
+
+## What is this?
+
+This script will retrieve information (e.g. name, time of printing) about all files ever printed on your Mac[^1], **and _possibly_ also the original files, even if they've been deleted**.
+
+<!--TODO add gif:-->
+
+## How do I do it?
+
+Open up terminal and run the python script `retrieve_printed_files.py` as root, i.e. run:
+
+```bash
+sudo python retrieve_printed_files.py
+```
+This will create a new folder with all retrieved files and a csv file with information about every file ever printed, even if the file itself could not be recovered.
+
+Root privileges are needed to access the protected directory where the print history is stored. Feel free to examine [the script](/retrieve_printed_files.py) before running it, its only about a hundred lines.
+
+## How does this work?
+
+<!--TODO explain-->
+
+[^1]: And also on any other Linux system using [CUPS](https://www.cups.org/), Apple's open-source system for printing.
