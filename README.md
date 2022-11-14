@@ -24,7 +24,7 @@ Alternatively, you can also run the bare-bones [shell script](/retrieve_files.sh
 
 ## How does this work?
 
-<!--TODO explain, and add blog post link-->
+MacOS uses a printing system called [CUPS](https://www.cups.org/), which is configured to save printed files by default in many cases. This means that if you print a file on your Mac and then delete it, it is likely that Mac has saved a copy of that file in an internal CUPS folder. This script just copies that file back, finds its name, renames it, and also retrieves some other information from CUPS control files. **You can read more in [my blog about this.](http://adam.sr/prints)** <!--TODO: make the link work-->
 
 ## Acknowledgements
 
