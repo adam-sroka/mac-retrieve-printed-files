@@ -16,7 +16,11 @@ sudo python retrieve_printed_files.py
 
 This will create a new folder with all retrieved files and a csv file with information about every file ever printed, even if the file itself could not be recovered.
 
-Root privileges are needed to access the protected directory where the print history is stored. Feel free to examine [the script](/retrieve_printed_files.py) before running it, its only about a hundred lines.
+**Security sidenote**
+
+Root privileges are needed to access the protected directory where the print history is stored. Feel free to examine [the python script](/retrieve_printed_files.py) before running it; it's only about a hundred lines.
+
+Alternatively, you can also run the bare-bones [shell script](/retrieve_files.sh) from this repo, which only has four commands and just copies the whole folder with the print history and tries to rename the files to pdfs. Do so by running `sudo retrieve_files.sh`.
 
 ## How does this work?
 
