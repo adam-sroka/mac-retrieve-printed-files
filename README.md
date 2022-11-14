@@ -19,7 +19,7 @@ Root privileges are needed to access the protected directory where the print his
 
 ## How does this work?
 
-<!--TODO explain-->
+<!--TODO explain, and add blog post link-->
 
 ## Acknowledgements
 
