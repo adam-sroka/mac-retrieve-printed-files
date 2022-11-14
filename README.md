@@ -31,3 +31,7 @@ MacOS uses a printing system called [CUPS](https://www.cups.org/), which is conf
 Thanks for [go-cups-control-files](https://github.com/ui-kreinhard/go-cups-control-files) and for [How to dissect a CUPS job control file](https://stackoverflow.com/questions/53688075/how-to-dissect-a-cups-job-control-file-var-spool-cups-cnnnnnn/53688639#53688639); this would not exist without these.
 
 [^1]: And also on any other Linux system using [CUPS](https://www.cups.org/), Apple's open-source system for printing.
+
+## License
+
+The scripts are licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
