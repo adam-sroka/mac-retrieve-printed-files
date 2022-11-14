@@ -21,4 +21,8 @@ Root privileges are needed to access the protected directory where the print his
 
 <!--TODO explain-->
 
+## Acknowledgements
+
+Thanks for [go-cups-control-files](https://github.com/ui-kreinhard/go-cups-control-files) and for [How to dissect a CUPS job control file](https://stackoverflow.com/questions/53688075/how-to-dissect-a-cups-job-control-file-var-spool-cups-cnnnnnn/53688639#53688639); this would not exist without.
+
 [^1]: And also on any other Linux system using [CUPS](https://www.cups.org/), Apple's open-source system for printing.
