@@ -107,12 +107,6 @@ if __name__ == "__main__":
                 # TODO generalise for other file types
                 if data_file_corrected_path[-4:] != '.pdf':
                     data_file_corrected_path += '.pdf'
-                # TODO can delete this as adding job id prevents duplicate names
-                increment = 1
-                while os.path.exists(data_file_corrected_path):
-                        data_file_corrected_path = data_file_corrected_path[:-4] + str(increment) + '.pdf'
-                        increment += 1
-                os.rename(data_file_path, data_file_corrected_path)
             else:
                 log_file_line += 'no\n'
             log_file.write(log_file_line)
