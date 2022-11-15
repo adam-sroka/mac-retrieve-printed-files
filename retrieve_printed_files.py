@@ -1,4 +1,6 @@
 # TODO check and handle python version in the os
+# TODO handle different files than just PDFs
+# TODO retrieve more control file fields
 
 import os
 from distutils.dir_util import copy_tree, remove_tree
