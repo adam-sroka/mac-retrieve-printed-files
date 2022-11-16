@@ -1,4 +1,3 @@
-# TODO check and handle python version in the os
 # TODO handle different files than just PDFs
 # TODO retrieve more control file fields
 
@@ -128,6 +127,7 @@ if __name__ == "__main__":
             log_file_line = stringify_decoded_fields(
                 decoded_fields, CONTROL_FILE_FIELD_TYPES
             )
+            # TODO: handle print jobs consisting of multiple files (e.g. d123457-001, d123457-002)
             corresponding_data_file_name = "d" + file_name[1:] + "-001"
             is_data_file_available = (
                 corresponding_data_file_name in retrieved_data_file_names
